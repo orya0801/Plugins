@@ -1,0 +1,9 @@
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.csprojAssemblyReference.cache
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.AssemblyInfoInputs.cache
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.AssemblyInfo.cs
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.csproj.CoreCompileInputs.cache
+E:\C# projects\dlls\ds.test.impl\bin\Debug\netcoreapp3.1\ds.test.impl.deps.json
+E:\C# projects\dlls\ds.test.impl\bin\Debug\netcoreapp3.1\ds.test.impl.dll
+E:\C# projects\dlls\ds.test.impl\bin\Debug\netcoreapp3.1\ds.test.impl.pdb
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.dll
+E:\C# projects\dlls\ds.test.impl\obj\Debug\netcoreapp3.1\ds.test.impl.pdb
