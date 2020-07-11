@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ds.test.impl.Exceptions
+namespace ds.test.impl
 {
     public class LogPluginException : Exception
     {

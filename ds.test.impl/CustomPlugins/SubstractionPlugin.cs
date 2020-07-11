@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Net.Http.Headers;
-using System.Text;
 
 namespace ds.test.impl.CustomPlugins
 {
@@ -20,7 +17,7 @@ namespace ds.test.impl.CustomPlugins
             }
         }
 
-        public string Description => "Plugin for substraction two numbers: input1 + input2";
+        public string Description => "Plugin to substract two numbers: input1 - input2";
 
         public int Run(int input1, int input2)
         {

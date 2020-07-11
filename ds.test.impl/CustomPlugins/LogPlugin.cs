@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using ds.test.impl.Exceptions;
 using System.Drawing;
-using System.Text;
 
 namespace ds.test.impl.CustomPlugins
 {

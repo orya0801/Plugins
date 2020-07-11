@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using ds.test.impl.CustomPlugins;
-using ds.test.impl.Exceptions;
 using System.Linq;
-using System.Text;
 
 namespace ds.test.impl
 {
@@ -34,16 +31,12 @@ namespace ds.test.impl
 
         public static IPlugin GetPlugin(string pluginName)
         {
-            try 
-            { 
-                var plugin = plugins.FirstOrDefault(x => x.PluginName == pluginName);
-                return plugin;
-            }
-            catch (NullReferenceException)
-            {
+            var plugin = plugins.FirstOrDefault(x => x.PluginName == pluginName);
+
+            if (plugin == null)
                 throw new NullPluginException($"Ошибка: Плагина с именем {pluginName} не существует." +
-                    $"Вы можете посмотреть имена всех плагинов воспользовавшись функцией Plugins.GetPluginNames");
-            }   
+                   $"Вы можете посмотреть имена всех плагинов воспользовавшись функцией Plugins.GetPluginNames");
+            return plugin;
         }
     }
 }

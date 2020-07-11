@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using ds.test.impl;
-using ds.test.impl.Exceptions;
 using System;
 
 namespace NUnitTestForLib

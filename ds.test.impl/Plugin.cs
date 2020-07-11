@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
-
-namespace ds.test.impl
+﻿namespace ds.test.impl
 {
     abstract class Plugin
     {
