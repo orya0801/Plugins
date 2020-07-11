@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using ds.test.impl;
+using System.Drawing.Imaging;
 using System.Text;
+using System.IO;
+using System.ComponentModel;
 
 namespace ds.test.impl.CustomPlugins
 {
@@ -9,7 +13,14 @@ namespace ds.test.impl.CustomPlugins
     {
         public string PluginName => "Addition";
         public string Version => "1.0.0";
-        public Image Image => new Bitmap(@"..\..\..\img\plus_sign.jpg");
+
+        public Image Image 
+        {
+            get
+            {
+                return Resources.plus_sign;
+            }
+        }
         public string Description => "Plugin to sum up two numbers: input1 + input2";
         public int Run(int input1, int input2)
         {

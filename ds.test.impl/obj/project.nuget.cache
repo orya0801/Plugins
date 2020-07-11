@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vgDHAb64wWSKsw9dAZXNy2fUQh6SlooEHUw5JiQq30vKLbUX71+X1R2/Xm7RFjUjGdjB9AotrwXDSDO1HT6/0w==",
+  "dgSpecHash": "H2vzAgTn+zjdIgFw9sVcxjVB2bYOMlpfb49z2w2Pij6pUSd/AriRtYPtpWn8GlT5oaU2FRday73pa46fmHO+xA==",
   "success": true,
   "projectFilePath": "E:\\C# projects\\dlls\\ds.test.impl\\ds.test.impl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Даниил\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Даниил\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+    "C:\\Users\\Даниил\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Даниил\\.nuget\\packages\\system.resources.extensions\\4.7.1\\system.resources.extensions.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.4.0",
           "NUnit3TestAdapter": "3.15.1",
-          "ds.test.impl": "1.0.0",
+          "lib": "1.0.0",
           "NUnit": "3.12.0"
         },
         "runtime": {
@@ -722,6 +722,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Resources.Extensions/4.7.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -911,12 +919,13 @@
           }
         }
       },
-      "ds.test.impl/1.0.0": {
+      "lib/1.0.0": {
         "dependencies": {
-          "System.Drawing.Common": "4.7.0"
+          "System.Drawing.Common": "4.7.0",
+          "System.Resources.Extensions": "4.7.1"
         },
         "runtime": {
-          "ds.test.impl.dll": {}
+          "lib.dll": {}
         }
       }
     }
@@ -1242,6 +1251,13 @@
       "path": "system.reflection.typeextensions/4.3.0",
       "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
     },
+    "System.Resources.Extensions/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuRdQps4IdpvMzgRrtKpXLckKXvc6XzgmTNQ75wf9snAITrfDK759ucS+US0gt1vmspTjCHKSCXgvp0ysfrjkA==",
+      "path": "system.resources.extensions/4.7.1",
+      "hashPath": "system.resources.extensions.4.7.1.nupkg.sha512"
+    },
     "System.Resources.ResourceManager/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1382,7 +1398,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "ds.test.impl/1.0.0": {
+    "lib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

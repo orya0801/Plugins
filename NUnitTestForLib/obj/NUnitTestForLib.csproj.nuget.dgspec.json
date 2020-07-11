@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "E:\\C# projects\\dlls\\ds.test.impl\\ds.test.impl.csproj",
-        "projectName": "ds.test.impl",
+        "projectName": "lib",
         "projectPath": "E:\\C# projects\\dlls\\ds.test.impl\\ds.test.impl.csproj",
         "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
         "outputPath": "E:\\C# projects\\dlls\\ds.test.impl\\obj\\",
@@ -45,6 +45,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             }
           },
           "imports": [

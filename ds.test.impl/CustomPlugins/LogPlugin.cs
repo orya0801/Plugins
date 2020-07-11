@@ -12,7 +12,13 @@ namespace ds.test.impl.CustomPlugins
 
         public string Version => "1.0.0";
 
-        public Image Image => new Bitmap(@"..\..\..\img\log_sign.jpg");
+        public Image Image
+        {
+            get
+            {
+                return Resources.log_sign;
+            }
+        }
 
         public string Description => "Plugin for math operation: log_<input1>_(<input2>)";
 

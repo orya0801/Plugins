@@ -51,6 +51,15 @@
             "rid": "win"
           }
         }
+      },
+      "System.Resources.Extensions/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {}
+        }
       }
     }
   },
@@ -139,11 +148,32 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.Resources.Extensions/4.7.1": {
+      "sha512": "cuRdQps4IdpvMzgRrtKpXLckKXvc6XzgmTNQ75wf9snAITrfDK759ucS+US0gt1vmspTjCHKSCXgvp0ysfrjkA==",
+      "type": "package",
+      "path": "system.resources.extensions/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Resources.Extensions.dll",
+        "lib/net461/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.4.7.1.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "System.Drawing.Common >= 4.7.0"
+      "System.Drawing.Common >= 4.7.0",
+      "System.Resources.Extensions >= 4.7.1"
     ]
   },
   "packageFolders": {
@@ -154,7 +184,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "E:\\C# projects\\dlls\\ds.test.impl\\ds.test.impl.csproj",
-      "projectName": "ds.test.impl",
+      "projectName": "lib",
       "projectPath": "E:\\C# projects\\dlls\\ds.test.impl\\ds.test.impl.csproj",
       "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
       "outputPath": "E:\\C# projects\\dlls\\ds.test.impl\\obj\\",
@@ -191,6 +221,10 @@
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[4.7.0, )"
+          },
+          "System.Resources.Extensions": {
+            "target": "Package",
+            "version": "[4.7.1, )"
           }
         },
         "imports": [

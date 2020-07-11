@@ -91,8 +91,6 @@ E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Vi
 E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\ds.test.impl.dll
-E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\ds.test.impl.pdb
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.csprojAssemblyReference.cache
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.AssemblyInfoInputs.cache
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.AssemblyInfo.cs
@@ -101,3 +99,6 @@ E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.cspr
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.dll
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.pdb
 E:\C# projects\dlls\NUnitTestForLib\obj\Debug\netcoreapp3.1\NUnitTestForLib.genruntimeconfig.cache
+E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\System.Resources.Extensions.dll
+E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\lib.dll
+E:\C# projects\dlls\NUnitTestForLib\bin\Debug\netcoreapp3.1\lib.pdb

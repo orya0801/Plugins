@@ -11,7 +11,13 @@ namespace ds.test.impl.CustomPlugins
 
         public string Version => "1.0.0";
 
-        public Image Image => new Bitmap(@"..\..\..\img\div_sign.jpg");
+        public Image Image
+        {
+            get
+            {
+                return Resources.division_sign;
+            }
+        }
 
         public string Description => "Plugin to divide two numbers: input1 / input2";
 

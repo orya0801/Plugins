@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ma6QKzcpnP6ZY65xPGoWAmRPXzSbQsDI5W734CZt0zObHWKVK8JlTtjOxmD1yVdV5NgeOdCpQFSPGJe9sEftdQ==",
+  "dgSpecHash": "FlS415Q4hAJB4tnYcLANsHfFHZ0E3xqFhbVz7h8u6hxC4aciAwyRh0A3KeiedAB3i3ptfWTgS3SeT3WZqZJbQw==",
   "success": true,
   "projectFilePath": "E:\\C# projects\\dlls\\NUnitTestForLib\\NUnitTestForLib.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,7 @@
     "C:\\Users\\Даниил\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Даниил\\.nuget\\packages\\system.resources.extensions\\4.7.1\\system.resources.extensions.4.7.1.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Даниил\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",

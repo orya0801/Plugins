@@ -124,6 +124,7 @@ namespace NUnitTestForLib
             Assert.AreEqual(5, plugin.Run(2, 32));
         }
 
+        [Test]
         public void CheckLogPluginForEx()
         {
             try
@@ -136,6 +137,13 @@ namespace NUnitTestForLib
             {
                 Assert.IsTrue(ex is LogPluginException);
             }
+        }
+
+        [Test]
+        public void IsImageCorrect()
+        {
+            var plugin = Plugins.GetPlugin("Addition");
+            Assert.AreEqual(512, plugin.Image.Width);
         }
     }
 }

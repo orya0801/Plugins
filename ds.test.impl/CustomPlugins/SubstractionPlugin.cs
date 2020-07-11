@@ -12,7 +12,13 @@ namespace ds.test.impl.CustomPlugins
 
         public string Version => "1.0.0";
 
-        public Image Image => new Bitmap("../../../substract_sign.jpg");
+        public Image Image
+        {
+            get
+            {
+                return Resources.minus_sign;
+            }
+        }
 
         public string Description => "Plugin for substraction two numbers: input1 + input2";
 
